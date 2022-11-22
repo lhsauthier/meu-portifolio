@@ -1,0 +1,167 @@
+body {
+	font-family: 'Montserrat'; sans-serif;
+	background: #FFFFFF;
+}
+
+header {
+	background: #00002F;
+	padding: 20px 0;
+	height: 200px;
+}
+
+/* css do cabeçalho */
+
+.contorno-nome-titulo {
+	width: 400px;
+	height: 200px;
+	border: 1px solid #00002F;
+	left: 10px;
+}
+
+.nome-titulo {
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Montserrat'; sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 10%;
+	color: #AAFFFF;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	color: #00002F;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	width: 400px;
+	height: 150px;
+	border: 1px solid #00002F;
+	right: 10px;
+	top: 60px;
+	right: 0;
+}
+
+nav li {
+	line-height: 1.2;
+	font-size: 30px;
+	text-align: center;
+	display: block;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #AAFFFF;
+	font-weight: bold;
+	font-size: 23px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+	font-size: 25px;
+}
+
+/*css da primeira section*/
+
+.subtitulos {
+	text-align:  center;
+	font-size:  2em;
+	margin: 0 0 1em;
+	clear:  left;
+}
+
+.principal {
+	padding: 3em 0;
+	width: 940px;
+	margin: 0 auto;
+	line-height: 1.5;
+}
+
+.principal p {
+	margin: 0 0 1em;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.principal strong {
+	font-weight:  bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.foto-perfil {
+	width: 120px;
+	float:  left;
+	margin: 0 20px 20px 0;
+}
+
+/* css do contato */
+
+.contatos {
+	width: 38%;
+	height: 420px;
+	margin: 0 auto 48px;
+	border: 1px solid #FFFFFF;
+	display: inline-block;
+	margin-left: 200px;
+}
+
+.contatos ul {
+	position: relative;
+	list-style: none;
+	width: 60px;
+	margin-right: 113px;
+	display: inline-block;
+}
+
+.contatos h2 {
+	font-size: 25px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+.badges {
+	border-radius: 10px;
+	width: 48px;
+	margin-bottom: 10px;
+	height: 48px;
+}
+
+.badges:hover {
+	width: 55px;
+	height: 55px;
+}
+
+
+.imagem-hacker {
+	width: 290px;
+	position: absolute;
+	margin: auto 350px;
+}
+
+/* css do rodapé */
+
+footer {
+	text-align: center;
+	background: #000000;
+	padding: 40px;
+}
+
+footer p {
+	color: #FFFFFF;
+	line-height: 1.5;
+}
+
+.nome-final {
+	color: #AAFFFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;

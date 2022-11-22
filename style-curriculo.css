@@ -1,0 +1,154 @@
+body {
+	font-family: 'Montserrat'; sans-serif;
+	background: #AAFFFF;
+}
+
+header {
+	background: #000000;
+	padding: 20px 0;
+	height: 200px;
+}
+
+/* css do cabeçalho */
+
+.contorno-nome-titulo {
+	width: 400px;
+	height: 200px;
+	border: 1px solid #000;
+	left: 10px;
+}
+
+.nome-titulo {
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Montserrat'; sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 10%;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	color: #FFFFFF;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	width: 400px;
+	height: 150px;
+	border: 1px solid #000;
+	right: 10px;
+	top: 60px;
+	right: 0;
+}
+
+nav li {
+	line-height: 1.2;
+	font-size: 30px;
+	text-align: center;
+	display: block;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 23px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #00FFFF;
+	text-decoration: underline;
+	font-size: 25px;
+}
+
+/* css da página inicial */
+
+.subtitulos {
+	text-align:  center;
+	font-size:  2em;
+	margin: 0 0 1em;
+	clear:  left;
+}
+
+.principal {
+	padding: 3em 0;
+	background: #AAFFFF;
+	width: 940px;
+	margin: 0 auto;
+	line-height: 1.5;
+}
+
+.principal p {
+	margin: 0 0 1em;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.principal strong {
+	font-weight:  bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.foto-perfil {
+	width: 200px;
+	float:  left;
+	margin: 0 20px 20px 0;
+}
+
+.gostos {
+	padding: 3em 0;
+	width: 940px;
+	margin: 0 auto;
+	background: #AAFFFF;
+}
+
+.imagembike {
+	width: 200px;
+	float:  left;
+	margin: 0 20px 20px 0;
+}
+
+.coisas-que-gosto {
+	width: 640px;
+	height: 244.69px;
+	margin: 0 auto;
+	background: #AAFFFF;
+	line-height: 1.5;
+}
+
+.itens {
+	font-size: 20px;
+	line-height: 2.05;
+}
+
+.itens:before {
+	content: "→ ";
+}
+
+/* css do rodapé */
+
+footer {
+	text-align: center;
+	background: #000000;
+	padding: 40px;
+	margin-top: 50px;
+}
+
+footer p {
+	color: #FFFFFF;
+	line-height: 1.5;
+}
+
+.nome-final {
+	color: #AAFFFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;

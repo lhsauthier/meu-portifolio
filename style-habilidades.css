@@ -1,0 +1,143 @@
+body {
+	font-family: 'Montserrat'; sans-serif;
+	background: #FFFFFF;
+}
+
+header {
+	background: #00002F;
+	padding: 20px 0;
+	height: 200px;
+}
+
+/* css do cabeçalho */
+
+.contorno-nome-titulo {
+	width: 400px;
+	height: 200px;
+	border: 1px solid #00002F;
+	left: 10px;
+}
+
+.nome-titulo {
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Montserrat'; sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 10%;
+	color: #AAFFFF;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	color: #00002F;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	width: 400px;
+	height: 150px;
+	border: 1px solid #00002F;
+	right: 10px;
+	top: 60px;
+	right: 0;
+}
+
+nav li {
+	line-height: 1.2;
+	font-size: 30px;
+	text-align: center;
+	display: block;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #AAFFFF;
+	font-weight: bold;
+	font-size: 23px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+	font-size: 25px;
+}
+
+/* css das habilidades */
+
+.habilidades {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.habilidades img {
+	margin: 10px 0;
+}
+
+.habilidades li {
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.habilidades li:hover {
+	border-color: #0000FF;
+}
+
+.habilidades li:active {
+	border-color: #00FFFF;
+}
+
+.habilidades li:hover h2 {
+	font-size: 46px;
+	transition: 600ms;
+}
+
+.habilidades li:hover img {
+	width: 73%;
+}
+
+.habilidades h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.habilidade-descricao {
+    font-size: 18px;
+}
+
+.habilidade-nivel {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* css do rodapé */
+
+footer {
+	text-align: center;
+	background: #000000;
+	padding: 40px;
+}
+
+footer p {
+	color: #FFFFFF;
+	line-height: 1.5;
+}
+
+.nome-final {
+	color: #AAFFFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
